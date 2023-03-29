@@ -18,8 +18,8 @@ const baseConfig = {
     preVue: [
       replace({
         'process.env.NODE_ENV': JSON.stringify('production'),
+        preventAssignment: true,
       }),
-      commonjs(),
       alias({
         resolve: ['.jsx', '.js', '.vue'],
         entries: {
@@ -27,6 +27,9 @@ const baseConfig = {
         },
       }),
     ],
+    postcss: {
+      plugins: []
+    },
     vue: {
       css: true,
       template: {
