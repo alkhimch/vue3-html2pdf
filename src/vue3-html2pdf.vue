@@ -19,14 +19,13 @@
     <transition name="transition-anim">
       <section class="pdf-preview" v-if="pdfFile">
         <button @click.self="closePreview()">&times;</button>
-
         <iframe :src="pdfFile" width="100%" height="100%" />
       </section>
     </transition>
   </div>
 </template>
 <script>
-import html2pdf from 'html2pdf.js'
+import html2pdf from "html2pdf.js"
 
 export default {
   props: {

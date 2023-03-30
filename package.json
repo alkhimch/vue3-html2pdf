@@ -23,8 +23,7 @@
     "html2pdf"
   ],
   "dependencies": {
-    "@vue/compiler-sfc": "^3.0.11",
-    "html2pdf.js": "^0.10.1"
+    "@vue/compiler-sfc": "^3.0.11"
   },
   "devDependencies": {
     "@rollup/plugin-alias": "^3.1.2",
@@ -38,7 +37,8 @@
     "rollup-plugin-vue": "6.0.0",
     "typescript": "^4.1.2",
     "vue": "^3.0.0",
-    "vue-template-compiler": "^2.6.12"
+    "vue-template-compiler": "^2.6.12",
+    "html2pdf.js": "^0.10.1"
   },
   "engines": {
     "node": ">=8"
