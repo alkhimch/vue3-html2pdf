@@ -1,6 +1,5 @@
 // Import vue component
 import component from './vue3-html2pdf.vue';
-
 // install function executed by Vue.use()
 function install(Vue) {
   if (install.installed) return;

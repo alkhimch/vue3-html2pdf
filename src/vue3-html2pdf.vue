@@ -25,8 +25,7 @@
   </div>
 </template>
 <script>
-import html2pdf from "html2pdf.js"
-
+import { html2pdf } from 'html2pdf.js'
 export default {
   props: {
     showLayout: {
